@@ -1,9 +1,9 @@
 <?php
 
-$serverName = "localhost";
-$userName = "USERS";
-$password = "engine451q";
-$dbName = "USERS";
+$serverName = "";
+    $userName = "";
+    $password = "";
+    $dbName = "";
 $column_name = "mednames";
 $table = "medication";
 
