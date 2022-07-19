@@ -35,10 +35,10 @@ error = database.child("Automatic_Pill_DispenserError").set(warning_data)
 
 # The following code tests Pythons connection to mySQL
 mydb = mysql.connector.connect(
-  host="localhost",
-  user="USERS",
-  password="engine451q",
-  database="USERS"
+  serverName = "";
+    userName = "";
+    password = "";
+    dbName = "";
 )
 
 sch_cursor = mydb.cursor()
