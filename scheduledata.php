@@ -4,10 +4,10 @@
 
     date_default_timezone_set('America/Jamaica');
 
-    $serverName = "localhost";
-    $userName = "USERS";
-    $password = "engine451q";
-    $dbName = "USERS";
+    $serverName = "";
+    $userName = "";
+    $password = "";
+    $dbName = "";
 
     $conn = mysqli_connect($serverName, $userName, $password, $dbName);
 
