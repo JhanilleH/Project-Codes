@@ -9,7 +9,10 @@ import RPi.GPIO as GPIO
 from mysql.connector import Error
 
 # The following code tests Pythons connection to mySQL
-
+serverName = ""
+ userName = ""
+ password = ""
+ dbName = ""
 
 
 cursor = mydb.cursor()
