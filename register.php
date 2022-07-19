@@ -2,10 +2,10 @@
     session_start();//Allows for the use of session variables
     // include '/home/pi/Downloads/PHPMailer-master/src/phpmail.php'; 
 
-    $serverName = "localhost"; //Connects file to the mysql database 
-    $userName = "USERS";
-    $password = "engine451q";
-    $dbName = "USERS";
+    $serverName = "";
+    $userName = "";
+    $password = "";
+    $dbName = "";
   
     $conn = mysqli_connect($serverName, $userName, $password, $dbName);
     
